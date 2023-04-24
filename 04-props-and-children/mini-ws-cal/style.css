@@ -1,0 +1,107 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%; 
+    background-color: whitesmoke;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    font-size: 3rem;
+}
+
+h1 {
+    font-size: 4rem;
+    text-align: center;
+    margin: 3rem 0;
+    /* color: red; */
+}
+
+.container {
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    /* background-color: aqua; */
+}
+
+.calculator {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: 3fr repeat(5,1fr);
+    background: #2a2a3d;
+    width: 400px;
+    height: 600px;
+    text-align: center;
+    border: solid 2px black;
+    border-radius: 20px;
+
+}
+
+.keypressOrg {
+    background-color: darkorange;
+    /* text-align: center; */
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* flex-direction: column; */
+    border:solid 1px #80808028;
+}
+
+.item--1 {
+    /* background: pink; */
+    grid-column-start: 1;
+    grid-column-end: -1;
+    display: flex;
+    justify-content:end;
+    align-items:flex-end;
+    padding: 10px;
+    color: white;
+    font-size: 72px;
+}
+
+#darkGray {
+    background-color: darkgray; 
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border:solid 1px #80808028;
+
+}
+
+#Orange {
+    background-color: orange; 
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border:solid 1px #80808028;
+
+}
+
+#lightGray {
+    background-color: lightgray; 
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border:solid 1px #80808028;
+
+}
+
+.item--18 {
+    background-color: lightgray; 
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0 0 0 20px;
+    border:solid 1px #80808028;
+}

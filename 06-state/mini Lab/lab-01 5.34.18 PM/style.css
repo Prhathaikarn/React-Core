@@ -1,0 +1,56 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%; 
+    background-color: whitesmoke;
+    font-family: 'Arial Narrow Bold', sans-serif;
+}
+
+h1 {
+    font-size: 4rem;
+    text-align: center;
+    margin: 3rem 0;
+    /* color: red; */
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    /* background-color: blue; */
+}
+
+.body {
+    width: 550px;
+    height: 60px;
+    margin: 10px;
+}
+
+.body > div {
+    border: solid ;
+    box-shadow: 0 0px 5px;
+    border-color: #5594dd40;
+}
+
+.box1{
+    /* background-color: aqua; */
+    font-size: 24px;
+}
+
+.box1 > h3 {
+    margin: 10px 30px;
+    font-size: 24px;
+}
+
+.box1 > p {
+    /* background-color: yellowgreen; */
+    padding: 10px 30px 30px;
+    font-size: 18px;
+}
+
